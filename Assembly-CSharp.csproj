@@ -53,14 +53,23 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/CambioColorInput.cs" />
     <Compile Include="Assets/Scripts/NaveEquilibrio.cs" />
     <Compile Include="Assets/Scripts/MovimientoNave.cs" />
+    <Compile Include="Assets/Scripts/PelotaInput.cs" />
+    <Compile Include="Assets/Scripts/NaveInput.cs" />
+    <Compile Include="Assets/Scripts/Jugador_Movimiento.cs" />
+    <Compile Include="Assets/Scripts/MovimientoFisicoInput.cs" />
+    <Compile Include="Assets/Scripts/MovimientoInput.cs" />
     <Compile Include="Assets/Scripts/ControlPelota.cs" />
     <Compile Include="Assets/Scripts/ImpulsoPelota.cs" />
     <Compile Include="Assets/Scripts/MovimientoTransform.cs" />
+    <Compile Include="Assets/Scripts/Destruir_Basquet.cs" />
     <Compile Include="Assets/Scripts/Colision.cs" />
     <Compile Include="Assets/Scripts/VelocidadPelota.cs" />
+    <Compile Include="Assets/Scripts/ReaparecerPelota.cs" />
     <Compile Include="Assets/Scripts/ColorPropulsor.cs" />
+    <Compile Include="Assets/Scripts/Controlar_Pelotita.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
