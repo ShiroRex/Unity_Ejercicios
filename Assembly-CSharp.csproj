@@ -53,11 +53,14 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.6.4f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/TargetingPacks/netstandard2.1/analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Movimiento_WASD.cs" />
     <Compile Include="Assets/Scripts/CambioColorInput.cs" />
     <Compile Include="Assets/Scripts/NaveEquilibrio.cs" />
+    <Compile Include="Assets/Scripts/Movimiento_Basico.cs" />
     <Compile Include="Assets/Scripts/MovimientoNave.cs" />
     <Compile Include="Assets/Scripts/PelotaInput.cs" />
     <Compile Include="Assets/Scripts/NaveInput.cs" />
+    <Compile Include="Assets/Scripts/Movimiento_Flechas.cs" />
     <Compile Include="Assets/Scripts/Jugador_Movimiento.cs" />
     <Compile Include="Assets/Scripts/MovimientoFisicoInput.cs" />
     <Compile Include="Assets/Scripts/MovimientoInput.cs" />
